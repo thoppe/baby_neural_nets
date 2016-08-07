@@ -6,7 +6,10 @@
 
 ====
 
-## Target shapes
+## Neural Networks and target shapes
+Can we watch the network learn?
+What does changing the network topology _look_ like?
+!(figures/neural_net2.jpeg) <<height:300px>>
 
 !(figures/source_images/AL1/circle.png) <<height:250px>>
 !(figures/source_images/AL1/heart.png) <<height:250px>>
@@ -16,7 +19,7 @@
 ====
 
 ## Shallow vs Deep
-
+Multi-Layer Perceptron, `2 x [10]x15
 !(figures/circle_shallow-20160807-162737.mp4) <<height:400px>> Shallow
 !(figures/circle_deep-20160807-162702.mp4) <<height:400px>> Deep
 
