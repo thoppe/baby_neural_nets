@@ -1,4 +1,4 @@
-title  = "Deep phonics"
+title  = "Baby Neural Nets"
 author = "Travis Hoppe"
 
 target      = "HnT_pres.md"

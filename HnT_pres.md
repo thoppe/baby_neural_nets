@@ -1,9 +1,8 @@
-# Baby Neural nets
+## Baby Neural nets
 [https://github.com/thoppe/baby_neural_nets](https://github.com/thoppe/baby_neural_nets)
 ----------
-### [Travis Hoppe](http://thoppe.github.io/), [@metasemantic](https://twitter.com/metasemantic)
-
-!(figures/breaking_bad.mp4) <<height:420px>>
+[TRAVIS HOPPE](http://thoppe.github.io/), [@metasemantic](https://twitter.com/metasemantic)
+!(figures/robot_baby.mp4) <<height:480px>> recreation of me building a new deep learning system.
 
 ====
     
