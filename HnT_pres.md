@@ -37,8 +37,33 @@
 =====
 
 ## Multi color patterns
+
+!(figures/source_images/hillary.png) <<height:490px;transparent>> Source image
+!(figures/hillary.mp4) <<height:500px>> target
   
 =====
+
+## Multi color patterns
+
+!(figures/source_images/apple.png) <<height:490px;transparent>> Source image
+!(figures/apple.mp4) <<height:500px>> target
+  
+=====
+
+## Multi color patterns
+
+!(figures/source_images/london_underground.png) <<height:490px;transparent>> Source image
+!(figures/london_underground.mp4) <<height:500px>> target
+  
+=====
+
+## Details are hard
+
+!(figures/source_images/starbucks.png) <<height:490px;transparent>> Source image
+!(figures/starbucks.mp4) <<height:500px>> target
+
+=====
+ 
     
 #  Thanks, you!
 Say hello: [@metasemantic](https://twitter.com/metasemantic)
