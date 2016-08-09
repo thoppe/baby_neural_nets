@@ -2,7 +2,7 @@
 [https://github.com/thoppe/baby_neural_nets](https://github.com/thoppe/baby_neural_nets)
 ----------
 [TRAVIS HOPPE](http://thoppe.github.io/), [@metasemantic](https://twitter.com/metasemantic)
-!(figures/robot_baby.mp4) <<height:480px>> recreation of me building a new deep learning system.
+!(figures/robot_baby.mp4) <<height:480px>> me working on deep learning
 
 ====
 
@@ -19,16 +19,21 @@ What does changing the network topology _look_ like?
 ====
 
 ## Shallow vs Deep
-Multi-Layer Perceptron, `2 x [10]x15
-!(figures/circle_shallow-20160807-162737.mp4) <<height:400px>> Shallow
-!(figures/circle_deep-20160807-162702.mp4) <<height:400px>> Deep
+Multi-Layer Perceptron learning a circle
+Brightness equivalent to NN's uncertainty
+  
+!(figures/circle_shallow-20160807-162737.mp4) <<height:400px>> Shallow, `200`
+!(figures/circle_deep-20160807-162702.mp4) <<height:400px>> Deep, `[10]x15`
 
 ====
 
 ## Activation functions
+!(figures/example_relu.png) <<height:250px>>  
+!(figures/example_tanh.png) <<height:250px>>
 
-!(figures/deep_heart_relu.mp4) <<height:500px>> ReLU
-!(figures/deep_heart_tanh.mp4) <<height:500px>> tanh
+!(figures/deep_heart_relu.mp4) <<height:400px>> ReLU
+!(figures/deep_heart_tanh.mp4) <<height:400px>> tanh
+
 
 =====
 
@@ -40,33 +45,46 @@ Multi-Layer Perceptron, `2 x [10]x15
 =====
 
 ## Multi color patterns
-
+Only show most common color
 !(figures/source_images/london_underground.png) <<height:490px;transparent>> Source image
-!(figures/london_underground.mp4) <<height:500px>> target
+!(figures/london_underground.mp4) <<height:500px>> Deep MLP `[10]x40`
   
 =====
 
 ## Multi color patterns
-
+Straight lines difficult for `tanh`
 !(figures/source_images/hillary.png) <<height:490px;transparent>> Source image
-!(figures/hillary.mp4) <<height:500px>> target
+!(figures/hillary.mp4) <<height:500px>> Deep MLP `[10]x40`
   
 =====
 
 ## Multi color patterns
-
+Many colors but simple regions
 !(figures/source_images/apple.png) <<height:490px;transparent>> Source image
-!(figures/apple.mp4) <<height:500px>> target
+!(figures/apple.mp4) <<height:500px>> Deep MLP `[10]x40`
   
 =====
 
 ## Details are hard
-
+Pattern doesn't converge after hours of iterations
+(needs more complex topology?)
 !(figures/source_images/starbucks.png) <<height:490px;transparent>> Source image
-!(figures/starbucks.mp4) <<height:500px>> target
+!(figures/starbucks.mp4) <<height:500px>> Deep MLP `[10]x40`
+
+=====
+
+## What's next?
+
+Look at CNN (convolutional neural network)
+
+Combine uncertainty information in color plots
+
+"Morph" from one shape to another as network problem shifts
+
 
 =====
  
     
 #  Thanks, you!
 Say hello: [@metasemantic](https://twitter.com/metasemantic)
+!(figures/chanel.mp4) <<height:500px>>
