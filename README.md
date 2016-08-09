@@ -8,7 +8,7 @@ Run the main program with the base name of the file to start generating images. 
     python MLP_model.py apple
     python MLP_model.py london_underground
 
-
+The parameters to the MLP are stored within the main file. Or better yet, watch the presentations!
   
 
 ### Presentations
