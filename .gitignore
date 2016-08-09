@@ -1,5 +1,6 @@
 *~
 *.pyc
 
-# For testing
-working_cache.sqlite
+images/*
+image_data.h5
+
